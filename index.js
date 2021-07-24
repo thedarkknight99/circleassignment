@@ -6,10 +6,9 @@ function clickHandler() {
     var side = document.getElementById("side").value;
     var radius = document.getElementById("radius").value;
 
-    //e.preventDefault();
+   
     let num =   Math.floor(side/(2*radius)); 
-    //console.log(num)
-    //document.getElementById("top").innerHTML = num;
+    
     var mainelement = document.createElement("div");
     mainelement.setAttribute("style", "border: 1px solid; height:300px; width:300px");
     mainelement.innerHTML = "aaaa";
