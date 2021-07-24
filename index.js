@@ -24,7 +24,7 @@ function clickHandler() {
             document.body.appendChild(element);
         }
         var element1 = document.createElement("br");
-        element1.setAttribute("style", "padding:10px; margin:10px")
+       
         document.body.appendChild(element1);
     } 
     
